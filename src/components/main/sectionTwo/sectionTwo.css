@@ -1,0 +1,91 @@
+
+.two-background{
+    position: absolute;
+    width: 100%;
+    background: #ffffff;
+}
+
+.two-title{
+    position: relative;
+    color: rgb(29, 29, 29);
+    font-family: Geometria, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 88px 0 44px 0;
+}
+
+.two-text{
+    position: relative;
+    color: rgb(29, 29, 29);
+    font-family: Geometria, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.two-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+.two-container {
+    position: relative;
+    margin: 10px;
+}
+
+.two-img {
+    width: 300px;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+.two-container:hover .two-img {
+    filter: brightness(0.7);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.two-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.overlay button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.overlay button:hover {
+    background-color: #ff4500;
+}

@@ -1,0 +1,31 @@
+
+.one-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 23px;
+}
+
+.one-col{
+    margin: 23px;
+    padding: 23px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #000000, #ff4500);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease;
+}
+
+.one-col:hover{
+    background-position: center right;
+}
+
+.one-col-p{
+    color: rgb(255, 255, 255);
+    font-family: Geometria, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+
+}

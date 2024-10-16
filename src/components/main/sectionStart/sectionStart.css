@@ -1,0 +1,45 @@
+
+.backgrounds{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.background-left{
+}
+
+.background{
+    width: 100%;
+}
+
+.background-right{
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
+}
+
+.background-text{
+    color: rgb(255, 255, 255);
+    font-family: Geometria, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.background-btn{
+    padding: 18px 20px;
+    border: 4px solid rgb(197, 55, 32);
+    background: black;
+    color: rgb(255, 255, 255);
+    font-family: Geometria, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 36px;
+    transition: background-color 0.5s ease;
+}
+
+.background-btn:hover{
+    background-color:  rgb(197,55,32);
+}

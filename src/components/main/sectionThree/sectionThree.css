@@ -1,0 +1,71 @@
+
+
+.three-background {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+
+.three-title{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Geometria, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 88px 0 44px;
+    margin: 88px 0 0;
+}
+
+.three-text{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Geometria, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.three-block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    column-gap: 111px;
+}
+
+.three-col{
+    display: flex;
+    column-gap: 21px;
+    margin: 40px 0 ;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #000000, #ff4500);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease;
+}
+
+.three-col:hover{
+    background-position: center right;
+}
+
+.three-left-title{
+    color: rgb(255, 255, 255);
+    font-family: Geometria, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.three-left-text{
+    color: rgb(255, 255, 255);
+    font-family: Geometria, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
